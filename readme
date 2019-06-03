@@ -1,0 +1,37 @@
+============================================================================
+ Name        : shell3.c
+ Author      : HAMZAOUI Yassine
+ Version     : v1.0
+ Copyright   : All rights reserved
+ Description : Simple Shell in C
+============================================================================
+ 
+Fonctionnalités : 	
+
+	// afficher : afficher normal
+	// afficher -d : afficher details
+	// quitter -c : confirmer la sortie du shell
+	// effacer : permet d'effacer l'ecran 
+	// acceder "chemin" : executer cd pour acceder au chemin ou au dossier
+	// lister "nom fichier " : liste le contenu d'un fichier
+	// supprimer "nom fichier ou dossier " : supprime un fichier ou un dossier
+	// chemin : afficher le chemin courant 
+	// editer "nomfichier" : ouvre l'éditeur vi
+	// creer -f "nomfichier" : création fichier
+	// creer -d "nomdossier" : création dossier	
+	// processus : permet d'afficher tous les processus courant
+	// processus "utilisateur" : permet d'afficher les processus courant d'un utilisateur spécifique
+	// @ : redirection
+	// afficher @ "nomfichier" : redirection de la commande afficher vers un fichier
+	// afficher -d @ "nomfichier" : redirection de la commande afficher -d vers un fichier
+	// chemin @ "nomfichier" : redirection de la commande chemin vers un fichier
+	// processus @ "nomfichier" : redirection de la commande processus vers un fichier
+	// processus "utilisateur" @ "nomfichier" : redirection de la commande processus "utilisateur" vers un fichier
+	// deplacer "chemin1" "chemin2" : permet de deplacer un fichier d'un chemin vers un autre
+	// copier "chemin1" "chemin2" : permet de copier un fichier d'un chemin vers un autre
+	// droit "privilèges" "nomfichier" : permet d'affecter des privilèges d'un utilisateur spécifique
+	// afficher # chercher "nom/caractère" : permet de chercher un mot
+	// afficher # compter ligne : permet de ccompter le nombre de ligne
+	//file_message -s -c 10 -t 5 -m "message"
+	//compiler "nomprog.c" -o "nomexecutable"
+	// cas d'une commande non disponible
